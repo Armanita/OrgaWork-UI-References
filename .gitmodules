@@ -1,0 +1,9 @@
+[submodule "kiranism-dashboard"]
+	path = kiranism-dashboard
+	url = https://github.com/Kiranism/next-shadcn-dashboard-starter.git
+[submodule "studio-admin"]
+	path = studio-admin
+	url = https://github.com/arhamkhnz/next-shadcn-admin-dashboard.git
+[submodule "tailadmin-nextjs"]
+	path = tailadmin-nextjs
+	url = https://github.com/TailAdmin/free-nextjs-admin-dashboard.git

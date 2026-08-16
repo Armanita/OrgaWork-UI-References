@@ -1,0 +1,68 @@
+{
+    "project":  "OrgaWork",
+    "purpose":  "Frozen external UI design and engineering references",
+    "createdUtc":  "2026-08-02T06:37:32.0439759Z",
+    "orgaworkHead":  "329d270171e1964c214428be2897cd0dc673a2cb",
+    "integrationStatus":  "NOT_INTEGRATED",
+    "repositories":  [
+                         {
+                             "id":  "studio-admin",
+                             "title":  "Studio Admin",
+                             "role":  "PRIMARY_VISUAL_REFERENCE",
+                             "allowedUse":  "layout, navigation, tasks, kanban, calendar, files, users, roles and visual system",
+                             "remote":  "https://github.com/arhamkhnz/next-shadcn-admin-dashboard.git",
+                             "originalBranch":  "main",
+                             "frozenCommit":  "4727cc7533d46e44b401cac34a38da8566ae9677",
+                             "commitDate":  "2026-08-01T12:13:31+05:30",
+                             "detachedHead":  true,
+                             "shallowClone":  true,
+                             "license":  "MIT",
+                             "licenseFile":  "LICENSE",
+                             "licenseSha256":  "5ddb30b0e77a231eaee8ca50e77985db21bb13e8136f145169702db7619705d4",
+                             "localDirectory":  "studio-admin"
+                         },
+                         {
+                             "id":  "tailadmin-nextjs",
+                             "title":  "TailAdmin Next.js",
+                             "role":  "SECONDARY_COMPONENT_REFERENCE",
+                             "allowedUse":  "forms, tables, charts, widgets and conventional dashboard layouts",
+                             "remote":  "https://github.com/TailAdmin/free-nextjs-admin-dashboard.git",
+                             "originalBranch":  "main",
+                             "frozenCommit":  "d3526b35fb7e579a4585129fe6eaa47f54ec9a0b",
+                             "commitDate":  "2026-04-28T16:22:19+06:00",
+                             "detachedHead":  true,
+                             "shallowClone":  true,
+                             "license":  "MIT",
+                             "licenseFile":  "LICENSE",
+                             "licenseSha256":  "26eac77f2deae23b2f810ba4ab825625aa39fe4f58ff6d3b815f067a07375ba2",
+                             "localDirectory":  "tailadmin-nextjs"
+                         },
+                         {
+                             "id":  "kiranism-dashboard",
+                             "title":  "Kiranism Next Shadcn Dashboard",
+                             "role":  "ENGINEERING_REFERENCE",
+                             "allowedUse":  "feature structure, data tables, forms and reusable frontend patterns",
+                             "remote":  "https://github.com/Kiranism/next-shadcn-dashboard-starter.git",
+                             "originalBranch":  "main",
+                             "frozenCommit":  "f5d9a0c9afe72111560bb14af5e187b40306cfaf",
+                             "commitDate":  "2026-07-30T03:56:41+05:30",
+                             "detachedHead":  true,
+                             "shallowClone":  true,
+                             "license":  "MIT",
+                             "licenseFile":  "LICENSE",
+                             "licenseSha256":  "5b27ce463323bbe94db1efbfa1edb050d7d6bcc00abdac09e8e57f7fb5d37115",
+                             "localDirectory":  "kiranism-dashboard"
+                         }
+                     ],
+    "mandatoryRules":  [
+                           "References remain outside the OrgaWork repository",
+                           "No authentication, authorization, database, tenancy or backend logic may be copied",
+                           "Only explicitly reviewed UI components may be adapted",
+                           "Final user interface must be fully Persian and RTL",
+                           "All visible dates must be Jalali while technical time remains UTC",
+                           "Raw English user-facing text is forbidden",
+                           "Sidebar, breadcrumbs, pagination, icons, charts, dialogs and keyboard navigation require RTL review",
+                           "Original MIT license files must be preserved",
+                           "OrgaWork architecture, contracts, tests and documentation remain authoritative"
+                       ]
+}
